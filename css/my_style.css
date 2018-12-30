@@ -1,0 +1,136 @@
+body{
+    background-color: #dcdcdc
+}
+.team_profile{
+    margin-top: 100px
+}
+.team_profile .item:nth-child(1){
+    min-height: 300px;
+    background-color: #ecedef;
+    background-image: linear-gradient(to left bottom,#fefefe,#ecedef);
+    box-shadow: #a4a4a4 12px 12px 16px;                
+}
+.team_profile .item .avatar{
+    border-right: #6f6f6f 1px solid;
+    margin-top: 50px
+                             
+}
+.team_profile .item .avatar > div{
+    width: 200px;
+    height: 200px;
+    border: #55c2c7 20px solid;
+    border-color: transparent;
+    border-left-color: #55c2c7;
+    border-radius: 100px;
+    margin: auto
+}
+.team_profile .item .avatar > div > img{
+    width: 100%;
+    height: 100%;
+    border-radius: 100px;
+    border: #55c2c7 1px solid
+}
+.team_profile .item .body{
+    padding-top: 50px;
+    padding-left: 0px                         
+}
+.team_profile .item + .item .body{
+    padding-top: 20px;
+}
+.team_profile .item .body > div:first-child{
+    border-bottom: #6f6f6f 1px solid;
+    padding-left: 30px
+}
+.team_profile .item + .item .body > div:first-child{
+    padding-left: 15px
+}
+.team_profile .item .body > div:first-child strong{
+    color: skyblue;
+    font-size: 20px;                                    
+    font-weight: bold;
+    font-size: 25px;
+    font-family: 'Raleway';
+    line-height: 26px;
+    text-transform: none;
+    letter-spacing: 0px;
+}
+.team_profile .item + .item .body > div:first-child strong{
+    color: red;                                    
+    font-weight: bold;
+    font-size: 15px;
+    font-family: 'Raleway';
+    line-height: 16px;
+    text-transform: none;
+    letter-spacing: 0px;
+}
+.team_profile .item .body > div:first-child em{
+    font-family: 'Raleway';
+    line-height: 13px;
+    text-transform: none;
+    letter-spacing: 0px;
+    font-weight: 300;
+    color: #6f6f6f
+}
+.team_profile .item .body > div:nth-child(2){
+    padding-left: 25px;
+    padding-top: 20px
+}
+.team_profile .item + .item .body > div:nth-child(2){
+    padding-left: 15px;
+    padding-top: 10px
+}
+.team_profile .item .body > div:nth-child(2) > div{
+    margin-bottom: 20px
+}
+.team_profile .item + .item .body > div:nth-child(2) > div{
+    margin-bottom: 10px
+}
+.team_profile .item .body > div:nth-child(2) > div > img{
+    width: 20px;
+    height: 20px;
+    float: left;
+    margin-right: 20px
+}
+.team_profile .item + .item .body > div:nth-child(2) > div > img{
+    width: 15px;
+    height: 15px;
+    float: left;
+    margin-right: 10px;
+    margin-top: 5px
+}
+.team_profile .item .body > div:nth-child(2) > div em{
+    line-height: 13px;
+    font-family: 'Raleway';
+    text-transform: none;
+    letter-spacing: 0px;
+    font-weight: 300;
+    color: #6f6f6f
+}
+.team_profile .item + .item .body > div:nth-child(2) > div em{
+    font-size: 12px
+}
+.team_profile .item + .item
+{
+    margin-top: 20px
+}
+.team_profile .item + .item > div > div{
+    width: 350px;
+    min-height: 200px;
+    background-image: linear-gradient(to left bottom,white,#ecedef);
+    box-shadow: #a4a4a4 12px 12px 16px;                 
+}
+.team_profile .item + .item .avatar{
+    width: 140px
+}
+.team_profile .item + .item .avatar > div{
+    width: 100px;
+    height: 100px;
+    border: #55c2c7 10px solid;
+    border-color: transparent;
+    border-left-color: red;
+    border-radius: 100px;
+    margin: auto
+}
+.team_profile .item + .item .avatar{
+    margin-top: 10px
+}
